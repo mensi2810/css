@@ -1,0 +1,23 @@
+
+p{
+    color:rgb(1, 129, 16);
+}
+button{
+    background-color:rgb(255, 255, 255);
+    color:rgba(21, 216, 57, 0.728);
+}
+body{
+    background-color: rgba(179, 191, 68, 0.463);
+}
+#headingOne{
+    color: rgb(212, 255, 0);
+}
+#headingTwo{
+    color: rgb(98, 15, 33);
+}
+.myclass{
+    color: rgba(206, 4, 34, 0.322);
+}
+#box{
+    background-color: blue;
+}
