@@ -3,5 +3,21 @@ p{
 }
 h1{
     text-align:center;
-    text-decoration: line-through;
+    text-decoration:rgb(200, 14, 14) wavy underline;
+}
+#h1{
+        font-weight: 100;
+        text-align: center;
+}
+#h2{
+    font-weight: 250;
+    text-align: center;         
+}
+#h3{
+    font-weight: 400;
+    text-align: center;
+}
+#h4{
+    font-weight: 900;
+    text-align: center;
 }
