@@ -1,3 +1,45 @@
-div{
-    background-color: pink;
+*{
+    padding:0px;
+    margin:0px;
+    color: white;
+}
+/* div{
+    width:100px;
+    height:100px;
+    margin:25px;
+    padding:25px;
+} */
+    
+#navbar{
+    height:60px;
+    background-color: black;
+}
+button{
+    background-color:#f08804;
+}
+#logo{
+    color: #f08804; 
+    font-size:25px;
+
+}
+input{
+        color:black;
+}
+a{
+    margin-right:200px;
+    text-decoration:none;
+   /* display:inline-block; */
+}
+.contentbox{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display:inline-block;
+}
+#content{
+   height:720px;
+}
+footer{
+    background-color: #0f1111;
+    text-align: center ;
 }
