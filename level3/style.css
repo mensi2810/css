@@ -12,30 +12,66 @@
           font-size:2em;/*<!--2 times the normal font size--> 
          
 } */
- div{
+ /* div{
     height:100px;
     width:100px;
     background-color: lightblue;
     border:2px solid black;
-    display:inline-block;
- }
+   
+ } */
  #box1{
-
-      position: static;
+      background-image: url(mana5280-dS28vcrgqhE-unsplash.jpg);
+      height:800px;
+      width:100%;
+      background-size: cover;
+       height:100px;
+    width:100px;
+    background-color: lightblue;
+    border:2px solid black;
+      /* position: static;
       top:50px;
       bottom:50px;
-      z-index: 2px;
+      z-index: -2; */
  }
  #box2{
       position: relative;
-      top:10px;
-      /* bottom:10px;
-      left:10px; */
-      z-index: 3px;
- }
- /* #box3{
-   position:absolute;
+      /* top:10px;
+      bottom:10px;
+      left:10px;
+      z-index: 3; */
+       height:100px;
+    width:100px;
+    background-color: lightblue;
+    border:2px solid black;
+   } 
+ 
+  #box3{
+   /* position:absolute;
    top:20px;
    bottom:20px;
-   left:20px;
- } */
+   left:20px;  */
+    height:100px;
+    width:100px;
+    background-color: lightblue;
+    border:2px solid black;
+ }
+
+#navbar{
+    height:60px;
+    background-color: black;
+}
+button{
+    background-color:#f08804;
+}
+#logo{
+    color: #f08804; 
+    font-size:25px;
+
+}
+input{
+        color:black;
+}
+a{
+    margin-right:200px;
+    text-decoration:none;
+}

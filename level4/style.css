@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+div{ 
+    height: 100px;
+    width: 200px;
+   display:inline-block;
+   border:2px solid darkblue;
+}
+#container{
+    height: 300px;
+    width: 700px;
+    display:flex;
+    /* box na direction mate */
+    /* flex-direction: column; */
+    /* flex-direction:row-reverse;  */
+    /* flex-direction: column-reverse; */
+    flex-direction: row ;
+   /*  justify-content:flex-end;  container na end ma item ave */
+     justify-content:space-around; /* space around  mate aju baju ni space-between,space-evenly*/
+    /* align-items:center;/*vertical alignment mate */
+   /* flex-wrap:wrap;  wrap karva mate */
+    align-content:flex-start;
+}  
+#box1{
+    background-color: pink;
+     flex-grow: 2;
+}
+#box2{
+    background-color: lightgreen;
+    height:200px;
+    /* flex-shrink:0.5; box ni width ne control karva mate */
+    flex-grow:  4;
+}
+#box3{
+    background-color: lightyellow;
+    height:70px;
+    
+}
+#box4{
+    background-color: lightcoral;
+}
+#box5{
+    background-color: lightblue;
+   /* align-self:flex-end;self wrap and alignment mate */
+}
