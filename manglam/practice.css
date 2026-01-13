@@ -1,0 +1,43 @@
+.container{
+    height:900px;
+    width:100%;
+    position:relative;
+    left:0;
+    background-image: url('building.png');
+    background-size: cover;
+}
+.header{
+    height:75px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(112,100,86);
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+span>img {
+    height: 100px;
+    width:150px;
+    margin-top:100px;
+    position:relative;
+    left:-20px;
+
+}
+span>a{
+    text-decoration: none;
+    color:white;
+    margin:20px;
+    position:relative;
+    
+}
+.link{
+    position:relative;
+    right:130px;
+}
+.a-img{
+    height:500px;
+    width:200px;
+}
+    
