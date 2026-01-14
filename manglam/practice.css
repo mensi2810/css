@@ -30,14 +30,37 @@ span>a{
     color:white;
     margin:20px;
     position:relative;
-    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 .link{
     position:relative;
     right:130px;
 }
-.a-img{
-    height:500px;
-    width:200px;
+.about{
+
 }
-    
+.a-img{
+        height:200px;
+        width:200px;
+       
+        position :relative;
+}
+span>p{
+        padding-left:100px;
+        display:flex;
+        margin-left:50em;
+        margin-right:10em;
+        font-weight:500;
+         color:rgb(112,100,86);
+         
+       
+      
+}
+span>h1{    
+        margin-left:28.5em;
+       font-family: 'Cinzel', serif;
+        color: rgb(112, 100, 86);
+       font-weight:200;       
+}
+
