@@ -1,30 +1,30 @@
 /*container styling*/
 body {
 
-    margin: 0px;
+    margin: 0%;
 }
 
 .container {
     height: 900px;
     width: 100%;
     position: relative;
-    left: 0;
+    left: 0%;
     background-size: cover;
 }
 
 /*navbar styling*/
 .header {
-    height: 75px;
+    height: 10%;
     width: 100%;
     display: flex;
     background-color: rgb(112, 100, 86);
     justify-content: space-around;
     align-items: center;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
 }
 
-span>a {
+.link>a {
     text-decoration: none;
     color: white;
     margin: 20px;
@@ -87,7 +87,6 @@ big {
 .salient>p {
     padding-top: 20px;
 }
-
 /*specification styling*/
 .specification {
     display: flex;
@@ -95,16 +94,40 @@ big {
 
     margin-top:100px;
 }
-
 .detail>h1 {
     font-weight: lighter;
-    margin: 65px 30px 40px 70px;
-
+}
+.detail{
+    margin: 30px 30px 40px 60px;
+    text-align:justify;
+    color:rgb(112, 100, 86)
+}
+/*footer styling*/
+.footer{
+    background-color: rgb(112, 100, 86);
+    height:350px;
+    color:white;
+    
+}
+.f-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 200px 70px 200px;
+    font-weight: lighter;
 }
 
-.detail>ol {
-    margin: 65px 30px 40px 70px;
-    text-align: justify;
-
-
+.f-detail>span{
+    height: 100px;
+}
+.qr1>span>img{
+    padding-top:20px;
+    padding-right:20px;
+}
+.qr1{
+    display: flex;
+}
+a{
+    color:white;
+    text-decoration: none;
 }
